@@ -43,8 +43,9 @@ public class Worker {
     public static Worker getClassType(String classType){
         return switch (classType.toUpperCase().charAt(0)){
             case 'I' -> {
-                System.out.println("Enter the Name and Gender(M or F)");
+                System.out.println("Enter the Name: ");
                 String name = scanner.nextLine();
+                System.out.println("Enter the Gender(M or F): ");
                 String gender = scanner.nextLine();
                 System.out.println("Enter end date (yyyy, mm, dd)");
                 LocalDate endDate = LocalDate.parse(scanner.nextLine(), DateTimeFormatter.ISO_LOCAL_DATE);
