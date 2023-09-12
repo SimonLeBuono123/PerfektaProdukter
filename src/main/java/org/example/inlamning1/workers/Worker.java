@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Worker {
     private String name;
-    private int id;
+    private final int id;
     private static int counter = 1;
     private String gender;
     private static Scanner scanner = new Scanner(System.in);
