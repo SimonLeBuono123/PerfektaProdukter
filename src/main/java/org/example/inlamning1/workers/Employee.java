@@ -40,7 +40,7 @@ public class Employee extends Worker{
                 "id=" + this.getId() +
                 ", name='" + this.getName() + '\'' +
                 ", gender='" + this.getGender() + '\'' +
-                "StartDate=" + ", " + StartDate +
+                ", StartDate=" + ", " + StartDate +
                 ", monthlyIncome=" + monthlyIncome + "\n" + "}";
 
     }

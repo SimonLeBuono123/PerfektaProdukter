@@ -27,10 +27,10 @@ public class Intern extends Worker{
     @Override
     public String toString() {
         return "\nIntern{" +
-                "id=" + this.getId() +
+                "id= " + this.getId() +
                 ", name='" + this.getName() + '\'' +
                 ", gender='" + this.getGender() + '\'' +
-                "EndDate=" + endDate +
+                ", EndDate= " + endDate +
                 ", Statement=" + recommendation + "\n" + "}";
 
     }

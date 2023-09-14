@@ -11,8 +11,8 @@ public class WorkerInfoMenu extends Menu implements MenuState {
         super("Information About workers");
         menuOptions = List.of(
                 new MenuOption(1, "1. All workers", () -> getAllWorkers()),
-                new MenuOption(2, "2. Interns ", () -> getAllInterns()),
-                new MenuOption(3, "3. Employees", () -> MenuSystem.setState(new EmployeeInfoMenu())),
+                new MenuOption(2, "2. Interns info", () -> getAllInterns()),
+                new MenuOption(3, "3. Employees Menu", () -> MenuSystem.setState(new EmployeeInfoMenu())),
                 new MenuOption(4, "4. Go back to Main Menu", () -> MenuSystem.setState(new MainMenu()))
         );
     }
